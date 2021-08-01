@@ -24,6 +24,6 @@ while turns>0:
 	if guess not in word:
 		turns -=1
 		print("Wrong guess")
-		print(f"You have {turns} more guesses remaining")
+		print("You have {turns} more guesses remaining")
 		if turns == 0:
 			print("You lose")
